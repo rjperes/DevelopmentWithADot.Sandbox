@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentWithADot.Sandbox", "DevelopmentWithADot.Sandbox\DevelopmentWithADot.Sandbox.csproj", "{632E52CB-5563-4245-A673-40E251A6F7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentWithADot.Sandbox.Tests", "DevelopmentWithADot.Sandbox.Tests\DevelopmentWithADot.Sandbox.Tests.csproj", "{8A342E58-292D-496D-A6A6-9B8ECF2E3A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632E52CB-5563-4245-A673-40E251A6F7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E52CB-5563-4245-A673-40E251A6F7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E52CB-5563-4245-A673-40E251A6F7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E52CB-5563-4245-A673-40E251A6F7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A342E58-292D-496D-A6A6-9B8ECF2E3A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A342E58-292D-496D-A6A6-9B8ECF2E3A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A342E58-292D-496D-A6A6-9B8ECF2E3A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A342E58-292D-496D-A6A6-9B8ECF2E3A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
