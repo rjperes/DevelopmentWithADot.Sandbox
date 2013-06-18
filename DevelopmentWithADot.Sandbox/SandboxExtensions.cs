@@ -72,11 +72,10 @@ namespace DevelopmentWithADot.Sandbox
 			}
 		}
 
-		public static void Execute<T>(Expression<Action<T>> expression, SecurityZone zone, Assembly[] fullTrustAssemblies, IPermission[] additionalPermissions) where T : MarshalByRefObject, new()
+		public static void Execute<T>(Action<T> func, SecurityZone zone, Assembly[] fullTrustAssemblies, IPermission[] additionalPermissions) where T : MarshalByRefObject, new()
 		{
 			using (AutoCleanup<T> auto = CreateRestrictedDomain<T>(zone, fullTrustAssemblies, additionalPermissions))
 			{
-				Action<T> func = expression.Compile();
 				func(auto.Target);
 			}
 		}
